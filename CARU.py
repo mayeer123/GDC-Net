@@ -1,3 +1,6 @@
+import torch
+import torch.nn as nn
+
 class CARU(nn.Module):
     def __init__(self, dim, dim_out, kernel_size=3, up_factor=2):
         super().__init__()
